@@ -1,7 +1,7 @@
 import { Request, Response} from 'express';
 const axios = require("axios");
 const cheerio = require("cheerio");
-const pretty = require("pretty");
+
 class BusPointController {
     async show(req: Request, res: Response){
         let { stop } = req.query;
