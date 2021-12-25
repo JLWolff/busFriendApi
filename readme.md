@@ -1,4 +1,5 @@
 ## Non official STCP api
+- link of the api for reqs: https://busfriendapi.herokuapp.com/
 
 ## get lines:
 
