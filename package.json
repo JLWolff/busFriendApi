@@ -9,7 +9,7 @@
     "dev": "ts-node-dev --ignore-watch node_modules src/server.ts"
   },
   "keywords": [],
-  "author": "Joao Wolff",
+  "author": "Joao wolff",
   "dependencies": {
     "@types/cheerio": "^0.22.30",
     "axios": "^0.24.0",
