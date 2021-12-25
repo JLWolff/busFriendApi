@@ -2,13 +2,13 @@
   "name": "busfriendApi",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
-    "start": "node src/server.ts",
-    "dev": "ts-node-dev --ignore-watch node_modules server.ts"
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joao Wolff",
   "dependencies": {
     "@types/cheerio": "^0.22.30",
     "axios": "^0.24.0",
@@ -22,8 +22,12 @@
     "@types/cors": "^2.8.6",
     "@types/express": "^4.17.6",
     "@types/jquery": "^3.5.10",
+    "@types/node": "^17.0.4",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.9.3"
+  },
+  "engines": {
+    "node": "14.4.0"
   }
 }
