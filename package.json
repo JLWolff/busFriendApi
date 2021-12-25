@@ -1,0 +1,29 @@
+{
+  "name": "busfriendApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/server.ts",
+    "dev": "ts-node-dev --ignore-watch node_modules server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@types/cheerio": "^0.22.30",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "pretty": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/jquery": "^3.5.10",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  }
+}
